@@ -1,25 +1,9 @@
-'''import tkinter
 
-janela = tkinter.Tk()
-janela.geometry("500x300")
-
-def clique():
-    print('Fazer Login')
-
-texto = tkinter.Label(janela, text="Fazer Login")
-texto.pack(padx=10, pady=10)
-
-botao = tkinter.Button(janela, text="Login", command=clique)
-botao.pack(padx=10, pady=10)
-
-
-
-janela.mainloop()
-'''
 import customtkinter 
 
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("dark-blue")
+
 janela = customtkinter.CTk() 
 janela.geometry("500x300")
 def clique():
