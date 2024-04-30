@@ -23,4 +23,4 @@ else:
 
 # avaliação de curto circuito
 print(True and True and True and False and True)
-print(True and True)
+print(True and 0 and True)
